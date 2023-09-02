@@ -1,0 +1,27 @@
+[
+    {
+        "index" : 0,
+        "employer":"The Nerdery",
+        "title1":"Software Engineer",
+        "title2":"",
+        "dateFrom":"2017",
+        "dateTo":"Present",
+        "url1":"https://www.nerdery.com/",
+        "altLinks":"",
+        "technologies":["React","Node","NextJS","GraphQl","AWS","Docker","Git","Jira","Agile","Scrum"],
+        "achievements": "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship."
+    },
+    {
+        "index" : 1,
+        "employer":"Photon Interactive",
+        "title1":"UX Designer",
+        "title2":"",
+        "dateFrom":"2011",
+        "dateTo":"2016",
+        "url1":"https://www.photon.com/",
+        "altLinks":"",
+        "technologies":["React","Node","NextJS","GraphQl","AWS","Docker","Git","Jira","Agile","Scrum"],
+        "achievements": "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and mentorship."
+    }
+]
+
