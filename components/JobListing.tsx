@@ -29,7 +29,7 @@ const JobListing = ({ dateFrom = "2017", dateTo = "Present", url1 = "https://www
                 <h3 className="font-medium leading-snug text-slate-200">
                     <div>
                         <a
-                            className="inline-flex items-baseline font-medium leading-tight text-slate-800 hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
+                            className="inline-flex items-baseline font-medium leading-tight text-slate-600 dark:text-slate-300 hover:text-teal-300 dark:hover:text-teal-300 focus-visible:text-teal-300 group/link text-base"
                             href={url1}
                             target="_blank"
                             rel="noreferrer"
