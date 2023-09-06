@@ -1,11 +1,26 @@
 import './globals.css'
 
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Inter, Inter_Tight, Bitter, DM_Serif_Display } from 'next/font/google'
 import { ThemeProviders } from "./theme-providers";
 import ThemeSwitcher from '../components/ThemeSwitcher';
 
-const inter = Inter({ subsets: ['latin'] })
+
+
+const dm_serif_display = DM_Serif_Display({
+  subsets: ['latin'],
+  weight: '400'
+})
+const inter = Inter({
+  subsets: ['latin'],
+  variable: '--font-inter',
+  display: 'swap',
+})
+const bitter = Bitter({
+  subsets: ['latin'],
+  variable: '--font-bitter',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -18,11 +33,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${inter.variable} ${bitter.variable}`} suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProviders>
           <ThemeSwitcher />
-          {children}
+          <div className='bg-white dark:bg-slate-800 text-slate-900 dark:text-white'>
+            {children}
+          </div>
         </ThemeProviders>
       </body>
     </html>

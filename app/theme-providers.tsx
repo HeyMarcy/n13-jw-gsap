@@ -1,6 +1,7 @@
 'use client'
 
 import { ThemeProvider } from 'next-themes'
+import siteMetadata from '@/data/siteMetadata'
 import { useState, useEffect } from 'react';
 
 export function ThemeProviders({ children }: { children: React.ReactNode }) {
@@ -10,7 +11,7 @@ export function ThemeProviders({ children }: { children: React.ReactNode }) {
   }, []);
   if (!mounted) return null;
   return (
-    <ThemeProvider attribute="class" enableSystem>
+    <ThemeProvider attribute="class" defaultTheme={siteMetadata.theme} enableSystem>
       {children}
     </ThemeProvider>
   )

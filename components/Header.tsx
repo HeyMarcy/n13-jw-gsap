@@ -7,7 +7,7 @@ const Header: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         >
             <div>
                 <h1
-                    className="text-4xl font-bold tracking-tight text-slate-200 sm:text-5xl"
+                    className="text-4xl  tracking-tight text-slate-200 sm:text-5xl"
                 >
                     <a href="/">Marcy Montross</a>
                 </h1>

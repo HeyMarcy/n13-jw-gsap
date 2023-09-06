@@ -15,7 +15,7 @@ const config: Config = {
         md: '1.5rem',
         lg: '2rem'
       }
-    }
+    },
   },
   plugins: []
 }
