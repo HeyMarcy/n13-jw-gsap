@@ -5,7 +5,7 @@ const siteMetadata = {
   headerTitle: 'Header Title',
   description: 'Software Engineer',
   language: 'en-us',
-  theme: 'light', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://heymarcy.com',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   email: 'address@yoursite.com',

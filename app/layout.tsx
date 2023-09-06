@@ -1,5 +1,5 @@
+// TODO: fix theme loading issue
 import './globals.css'
-
 import type { Metadata } from 'next'
 import { Inter, Inter_Tight, Bitter, DM_Serif_Display } from 'next/font/google'
 import { ThemeProviders } from "./theme-providers";
@@ -33,7 +33,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={`${inter.variable} ${bitter.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${inter.variable} ${bitter.variable} dm_serif_display`} suppressHydrationWarning>
       <body className={inter.className}>
         <ThemeProviders>
           <ThemeSwitcher />
