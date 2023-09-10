@@ -1,5 +1,7 @@
+import About from '@/components/About'
 import Header from '@/components/Header'
 import Nav from '@/components/Nav'
+import Projects from '@/components/Projects'
 import Section from '@/components/Section'
 
 export default function Home() {
@@ -11,7 +13,9 @@ export default function Home() {
           <Nav />
         </Header>
         <main id="content" className="pt-24 lg:w-1/2 lg:py-24">
+          <About />
           <Section />
+          <Projects />
         </main>
       </div>
     </div>

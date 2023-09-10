@@ -29,13 +29,14 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+
 h1 {
-  font-family: var(--font-bitter);
-  font-weight: 200;
+  font-family: var(--font-inter_tight);
 }
 /* h1 {
-  font-family: dm_serif_display;
+  font-family: var(--font-inter_tight);
 } */
+
 
 #content {
   font-family: var(--font-inter);

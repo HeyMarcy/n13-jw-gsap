@@ -11,11 +11,10 @@ const ThemeSwitcher = () => {
     setMounted(true);
   }, []);
   if (!mounted) return null;
-
+  setTheme('dark')
   return (
     <div className="bg-slate-500 text-white">
       <button className='rounded-full' onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>Theme color {theme === 'light' ? 'Light' : 'Dark'}</button>
-      {/* <button className='rounded-full' onClick={() => setTheme('light')}>Light Mode</button> */}
     </div>
   )
 }

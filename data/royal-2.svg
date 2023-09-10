@@ -1,0 +1,69 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+<svg id="purple-clear" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        stroke-width: 0px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="9.52" y1="110.48" x2="109.52" y2="10.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#609"/>
+      <stop offset=".06" stop-color="#620191" stop-opacity=".94"/>
+      <stop offset=".16" stop-color="#57067e" stop-opacity=".78"/>
+      <stop offset=".29" stop-color="#460e5f" stop-opacity=".52"/>
+      <stop offset=".44" stop-color="#2e1934" stop-opacity=".17"/>
+      <stop offset=".5" stop-color="#231f20" stop-opacity="0"/>
+      <stop offset=".51" stop-color="#241e23" stop-opacity=".03"/>
+      <stop offset=".59" stop-color="#381546" stop-opacity=".32"/>
+      <stop offset=".67" stop-color="#480d64" stop-opacity=".57"/>
+      <stop offset=".76" stop-color="#55077b" stop-opacity=".76"/>
+      <stop offset=".84" stop-color="#5e038b" stop-opacity=".89"/>
+      <stop offset=".92" stop-color="#640095" stop-opacity=".97"/>
+      <stop offset="1" stop-color="#609"/>
+    </linearGradient>
+  </defs>
+  <rect class="cls-1" x="10" y="10" width="100" height="100"/>
+</svg> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 120 120">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        filter: url(#AI_Turbulence_5);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="9.52" y1="110.48" x2="109.52" y2="10.48" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#609"/>
+      <stop offset=".06" stop-color="#620191" stop-opacity=".94"/>
+      <stop offset=".16" stop-color="#57067e" stop-opacity=".78"/>
+      <stop offset=".29" stop-color="#460e5f" stop-opacity=".52"/>
+      <stop offset=".44" stop-color="#2e1934" stop-opacity=".17"/>
+      <stop offset=".5" stop-color="#231f20" stop-opacity="0"/>
+      <stop offset=".51" stop-color="#241e23" stop-opacity=".03"/>
+      <stop offset=".59" stop-color="#381546" stop-opacity=".32"/>
+      <stop offset=".67" stop-color="#480d64" stop-opacity=".57"/>
+      <stop offset=".76" stop-color="#55077b" stop-opacity=".76"/>
+      <stop offset=".84" stop-color="#5e038b" stop-opacity=".89"/>
+      <stop offset=".92" stop-color="#640095" stop-opacity=".97"/>
+      <stop offset="1" stop-color="#609"/>
+    </linearGradient>
+    <filter id="AI_Turbulence_5" x="0%" y="0%" width="100%" height="100%">
+      <feTurbulence baseFrequency="0.4" numOctaves="10" result="turb" type="fractalNoise"/>
+      <feComposite in="turb" in2="SourceAlpha" operator="in"/>
+    </filter>
+  </defs>
+  <g id="purple-clear">
+    <rect class="cls-1" x="10" y="10" width="100" height="100"/>
+  </g>
+  <g id="static_on_clear_copy" data-name="static_on_clear copy">
+    <g class="cls-2">
+      <rect class="cls-1" x="10" y="10" width="100" height="100"/>
+    </g>
+  </g>
+</svg>
