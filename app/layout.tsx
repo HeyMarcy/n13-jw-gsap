@@ -5,20 +5,21 @@ import { Inter, Inter_Tight } from 'next/font/google'
 import { ThemeProviders } from "./theme-providers";
 import ThemeSwitcher from '../components/ThemeSwitcher';
 import localFont from "next/font/local"
+import Image from "next/image"
 
-const ramillas = localFont({
-  src: [
-    {
-      path: "../fonts/Ramillas_Trial_Variable_Roman.ttf",
-      style: 'normal'
-    },
-    {
-      path: "../fonts/Ramillas_Trial_Variable_Italic.ttf",
-      style: 'italic'
-    }
-  ],
-  variable: '--font-ramillas',
-})
+// const ramillas = localFont({
+//   src: [
+//     {
+//       path: "../fonts/Ramillas_Trial_Variable_Roman.ttf",
+//       style: 'normal'
+//     },
+//     {
+//       path: "../fonts/Ramillas_Trial_Variable_Italic.ttf",
+//       style: 'italic'
+//     }
+//   ],
+//   variable: '--font-ramillas',
+// })
 
 const inter = Inter({
   subsets: ['latin'],
@@ -52,6 +53,14 @@ export default function RootLayout({
         <ThemeProviders>
           {/* <ThemeSwitcher /> */}
           <div className='bg-white dark:bg-slate-800 text-slate-900 dark:text-white'>
+            {/* <Image
+              className="z-0 not-sr-only"
+              alt="purple background pattern"
+              layout='fill'
+              src="../data/royal-1.svg"
+            /> */}
+
+
             {children}
           </div>
         </ThemeProviders>

@@ -54,7 +54,7 @@
       <stop offset="1" stop-color="#609"/>
     </linearGradient>
     <filter id="AI_Turbulence_5" x="0%" y="0%" width="100%" height="100%">
-      <feTurbulence baseFrequency="0.4" numOctaves="10" result="turb" type="fractalNoise"/>
+      <feTurbulence baseFrequency="10" numOctaves="10" result="turb" type="fractalNoise"/>
       <feComposite in="turb" in2="SourceAlpha" operator="in"/>
     </filter>
   </defs>
