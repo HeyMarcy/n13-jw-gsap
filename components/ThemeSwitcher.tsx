@@ -1,5 +1,6 @@
 'use client'
 
+// TODO Fix so correct theme is shown on load
 import { useTheme } from "next-themes"
 import { useState, useEffect } from 'react'
 
@@ -15,7 +16,6 @@ const ThemeSwitcher = () => {
   return (
     <div className="bg-slate-500 text-white">
       <button className='rounded-full' onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>Theme color {theme === 'light' ? 'Light' : 'Dark'}</button>
-      {/* <button className='rounded-full' onClick={() => setTheme('light')}>Light Mode</button> */}
     </div>
   )
 }
